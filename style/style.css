@@ -60,6 +60,10 @@ a{
     padding: 0;
 
     list-style: none;
+
+    display: flex;         /* Deixa os botões alinhados horizontalmente de forma moderna */
+    flex-wrap: wrap;       /* Evita que o menu quebre o layout em telas de celular */
+    gap: 10px;
 }
 .menu-lista li{
     display:inline-block;
@@ -76,11 +80,15 @@ a{
     border-radius: 5px;
 
     text-decoration:none;
-    margin:0 auto;
+  
 
 }
 .secao{
- padding:72px 0;
+  
+  padding: 24px;
+
+ 
+
 }
 .titulo-secao{
     margin-bottom:32px;
